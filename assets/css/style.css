@@ -60,6 +60,8 @@ section{
     padding: 6px;
     margin: 5px 25%;
     color: lavender;
+    cursor:pointer;
+
 }
 .image-holder {
 	margin: 10px 10%;
