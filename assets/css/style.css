@@ -20,7 +20,7 @@ body{
 }
 .main-container{
     width: 80%;
-    height: 544px;
+    height: 538px;
     overflow: auto;
     margin: 10px 10%;
 }
@@ -66,8 +66,8 @@ section{
     width: 80%;
     height: 55%;
 }
-.result{
-    margin: 15px 250%;
+.results{
+    margin: 15px 25%;
     width: 50%;
 }
 .img {

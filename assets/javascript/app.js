@@ -82,8 +82,8 @@ var intervalId;
 function reset(){
     isCorrect = false;
     isTimerZero = false;
-    time = 10;
-    $(".result").hide();
+    time = 1;
+    $(".results").hide();
     $(".timer-section").html("00:"+time);
     $(".answer-part").show();
     $(".question-part").show();
@@ -133,16 +133,19 @@ function countDown(){
     }
 }
 function result(){
+    
     $(".correct-answer").hide();
     $(".image-holder").hide();
     $(".question-part").hide();
     $(".answers").hide();
-    $(".result").show();
+    $(".answer-part").show();
+    $(".results").show();
     $(".result-title").text("Results");
     $(".second-result").text("Correct Answers : "+correct);
     $(".third-result").text("Wrong Answers : "+wrong);
     $(".fourth-result").text("Unanswered  : "+unAnswered);
     $(".result-title").css("color", "coral");
+    
 }
 
 $(".answers").on("click", function(){
@@ -186,7 +189,6 @@ function answerOut(iterator){
         $(".btn").text("Restart");
         $(".btn").show();
         result();
-        
     }
 }
 
