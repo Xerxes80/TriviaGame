@@ -82,7 +82,7 @@ var intervalId;
 function reset(){
     isCorrect = false;
     isTimerZero = false;
-    time = 1;
+    time = 15;
     $(".results").hide();
     $(".timer-section").html("00:"+time);
     $(".answer-part").show();
